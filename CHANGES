@@ -96,7 +96,7 @@ Release 1.15 (released Nov 7, 2025)
   See the :ref:`documentation for details <sec-ref-supported-image-types>`.
   (by Lars Schmidt in :pr:`1756`)
 * Add support for an ``emptyfs`` image type, which can be used instead of an
-  emtpy ``tar`` when installing into an ``ext4`` slot.
+  empty ``tar`` when installing into an ``ext4`` slot.
   The newly created filesystem can then be customised with a ``post-install``
   hook.
   (by Lars Schmidt in :pr:`1759`)
