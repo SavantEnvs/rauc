@@ -1,0 +1,9 @@
+# seed-from: https://app.mayhem.security/savantenvs/rauc/bundle_fuzzer
+project: savantenvs/rauc
+target: bundle_fuzzer-mined-cc03d35
+cmds:
+  - cmd: /mayhem/bundle_fuzzer
+    libfuzzer: true
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/bundle_fuzzer-mined-cc03d35/testsuite
